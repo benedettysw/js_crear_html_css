@@ -5,3 +5,15 @@
 
 
     document.body.appendChild(texto)
+
+
+
+
+ let mensaje  = document.createElement('p')
+
+    mensaje.textContent = "mensaje desde js para html"
+
+
+    let divs = document.querySelector('.container');
+
+    divs.appendChild(mensaje)
