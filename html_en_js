@@ -1,0 +1,7 @@
+ var texto = document.createElement('p')
+
+
+    texto.textContent = "esto es un mensaje desde javascript"
+
+
+    document.body.appendChild(texto)
